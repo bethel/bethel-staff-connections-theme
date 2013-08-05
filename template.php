@@ -53,7 +53,6 @@
         <div style="margin-bottom: 10px;">
             <span><strong><?php echo $entry->getNameBlock(); ?></strong></span>
             <?php $entry->getTitleBlock(); ?>
-            <?php $entry->getOrgUnitBlock(); ?>
         </div>
 
         <?php $entry->getEmailAddressBlock(array('format' => '%address%')); ?>
